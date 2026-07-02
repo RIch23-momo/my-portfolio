@@ -1,0 +1,118 @@
+/* ============================================================
+   Global Styles & Variables
+   ============================================================ */
+:root {
+    --primary: #2563eb;
+    --primary-dark: #1d4ed8;
+    --secondary: #0f172a;
+    --accent: #f59e0b;
+    --text-light: #f8fafc;
+    --text-dark: #0f172a;
+    --bg-light: #ffffff;
+    --bg-dark: #0f172a;
+    --card-bg-light: #ffffff;
+    --card-bg-dark: #1e293b;
+    --border-light: #e2e8f0;
+    --border-dark: #334155;
+    --shadow: 0 10px 30px -10px rgba(0,0,0,0.1);
+    --shadow-hover: 0 20px 40px -15px rgba(0,0,0,0.2);
+    --radius: 16px;
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-secondary);
+    background: var(--bg-light);
+    color: var(--text-dark);
+    transition: background var(--transition), color var(--transition);
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+body.dark-mode {
+    background: var(--bg-dark);
+    color: var(--text-light);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ============================================================
+   Section Headers
+   ============================================================ */
+.section-header {
+    margin-bottom: 3rem;
+}
+.section-subtitle {
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--primary);
+    background: rgba(37, 99, 235, 0.1);
+    padding: 0.35rem 1.2rem;
+    border-radius: 50px;
+    margin-bottom: 0.5rem;
+}
+.section-title {
+    font-family: var(--font-primary);
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+.section-divider {
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    border-radius: 4px;
+    margin: 0.75rem auto;
+}
+
+/* Buttons */
+.btn-primary {
+    background: var(--primary);
+    border: none;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: var(--transition);
+}
+.btn-primary:hover {
+    background: var(--primary-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px -8px rgba(37, 99, 235, 0.4);
+}
+.btn-outline-primary {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: var(--transition);
+}
+.btn-outline-primary:hover {
+    background: var(--primary);
+    color: #fff;
+    transform: translateY(-2px);
+}

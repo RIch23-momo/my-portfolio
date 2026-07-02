@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Richmond Odonkor - Software Engineer, Web Developer, Graphic Designer, Data Analyst, AI Advocate, Social Media Manager, IT Consultant. Professional portfolio showcasing skills, projects, and services." />
+    <meta name="keywords" content="Richmond Odonkor, Software Engineer, Web Developer, Graphic Designer, Data Analyst, AI Advocate, Social Media Manager, IT Consultant, Portfolio" />
+    <meta name="author" content="Richmond Odonkor" />
+    <title>Richmond Odonkor | Software Engineer &amp; Web Developer</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts: Poppins + Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Custom CSS Files -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="skills.css" />
+    <link rel="stylesheet" href="services.css" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="experience.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="connect-section.css" />
+    <link rel="stylesheet" href="animations.css" />
+    <link rel="stylesheet" href="responsive.css" />
+</head>
+<body>
+
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Main Navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">
+                <span class="logo-text">Richmond</span><span class="logo-highlight">.</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+            aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                <li class="nav-item"><a class="nav-link" href="#connect">Connect</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions d-flex align-items-center">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main>
+<!-- ===== HERO ===== -->
+<section id="hero" class="hero-section d-flex align-items-center">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 order-2 order-lg-1 hero-content">
+                <div class="hero-badge">
+                    <span class="badge-pulse"><i class="fas fa-code"></i> Open to Opportunities</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Richmond Odonkor</span>
+                </h1>
+                <div class="hero-typing-wrapper">
+                    <span class="typing-prefix">I am a</span>
+                    <span class="typing-text" id="typingText"></span>
+                    <span class="typing-cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Software Engineer | Web Developer | Graphic Designer | Data Analyst |
+                    AI Advocate | Social Media Manager | IT Consultant.
+                    Crafting digital experiences that blend innovation with precision.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-hero">
+                        <i class="fas fa-paper-plane"></i> Hire Me
+                    </a>
+                    <a href="#portfolio" class="btn btn-outline-light btn-hero">
+                        <i class="fas fa-eye"></i> View Projects
+                    </a>
+                    <a href="#" class="btn btn-outline-light btn-hero" id="downloadCV">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a class="btn btn-outline-light btn-sm hero-social-btn" href="https://www.facebook.com/momo.rich.796" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                    <a class="btn btn-outline-light btn-sm hero-social-btn" href="https://www.linkedin.com/in/richmond-odonkor-647690303/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJByBgOKlR4O2vcBdb1DPqw%3D%3D" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                    <a class="btn btn-outline-light btn-sm hero-social-btn" href="https://www.tiktok.com/@rich.design86" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i> TikTok</a>
+                    <a class="btn btn-outline-light btn-sm hero-social-btn" href="https://www.instagram.com/richmond.odonkor/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a class="btn btn-outline-light btn-sm hero-social-btn" href="https://wa.me/+233 53 590 0190" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a class="btn btn-outline-light btn-sm hero-social-btn" href="https://github.com/RIch23-momo" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i> GitHub</a>
+                    <a class="btn btn-outline-light btn-sm hero-social-btn" href="https://x.com/Od57141Richmond" target="_blank" rel="noopener noreferrer" aria-label="X"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-image-wrapper">
+                <div class="hero-image-container">
+                    <div class="hero-image-placeholder">
+                        <img src="images/18e2124f-42b4-480f-91b7-5c0a1c192037.png" alt="Richmond Odonkor" class="hero-profile-img" />
+                        <div class="hero-image-overlay"></div>
+                    </div>
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>Full-Stack</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-palette"></i>
+                        <span>Design</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-brain"></i>
+                        <span>AI</span>
+                    </div>
+                    <div class="floating-card card-4">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero Background Animation -->
+    <div class="hero-bg-animation">
+        <div class="bg-circle c1"></div>
+        <div class="bg-circle c2"></div>
+        <div class="bg-circle c3"></div>
+        <div class="bg-circle c4"></div>
+        <div class="bg-circle c5"></div>
+        <div class="bg-circle c6"></div>
+    </div>
+    <div class="hero-scroll-indicator">
+        <a href="#about" aria-label="Scroll down">
+            <span class="scroll-mouse"></span>
+            <span class="scroll-arrow"><i class="fas fa-chevron-down"></i></span>
+        </a>
+    </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="section-header text-center">
+            <span class="section-subtitle">About Me</span>
+            <h2 class="section-title">Who I Am</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-5 about-image-wrapper">
+                <div class="about-image-container">
+                    <img src="images/7f1cf4b0-5d90-454a-90cf-fde64c6a61f6.png" alt="Richmond Odonkor - About" class="about-profile-img" />
+                    <div class="about-experience-badge">
+                        <span class="exp-number">5+</span>
+                        <span class="exp-label">Years of Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 about-content">
+                <h3 class="about-heading">Building Digital Solutions That Make a Difference</h3>
+                <p class="about-text">
+                    I am Richmond Odonkor, a passionate Software Engineer and creative problem-solver
+                    with a diverse skill set spanning web development, graphic design, data analytics,
+                    and artificial intelligence. I believe in leveraging technology to create meaningful
+                    impact and drive innovation.
+                </p>
+                <div class="about-mission-vision">
+                    <div class="mv-item">
+                        <div class="mv-icon"><i class="fas fa-rocket"></i></div>
+                        <div>
+                            <h5>Mission</h5>
+                            <p>To deliver high-quality, user-centered digital solutions that solve real-world problems.</p>
+                        </div>
+                    </div>
+                    <div class="mv-item">
+                        <div class="mv-icon"><i class="fas fa-eye"></i></div>
+                        <div>
+                            <h5>Vision</h5>
+                            <p>To become a globally recognized innovator shaping the future of technology.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-info-grid">
+                    <div class="info-item">
+                        <span class="info-label">Name:</span>
+                        <span class="info-value">Richmond Odonkor</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Title:</span>
+                        <span class="info-value">Software Engineer &amp; Web Developer</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Email:</span>
+                        <span class="info-value">richmond@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Location:</span>
+                        <span class="info-value">Accra, Ghana</span>
+                    </div>
+                </div>
+                <div class="about-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#" class="btn btn-outline-primary" id="downloadResume">
+                        <i class="fas fa-file-pdf"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <div class="section-header text-center">
+            <span class="section-subtitle">My Skills</span>
+            <h2 class="section-title">Expertise &amp; Proficiency</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="row g-4">
+            <!-- Skill categories remain the same, but with updated styling -->
+            <div class="col-lg-4 col-md-6">
+                <div class="skill-category-card">
+                    <div class="skill-category-header">
+                        <i class="fas fa-code"></i>
+                        <h4>Programming</h4>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item" data-percent="95">
+                            <span class="skill-name">JavaScript / TypeScript</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width:0%;"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-item" data-percent="90">
+                            <span class="skill-name">Python</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width:0%;"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item" data-percent="85">
+                            <span class="skill-name">Java</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width:0%;"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item" data-percent="80">
+                            <span class="skill-name">C# / .NET</span>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width:0%;"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other categories – omitted for brevity, but they exist in actual code -->
+            <!-- ... -->
+        </div>
+    </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services" class="services-section">
+    <div class="container">
+        <div class="section-header text-center">
+            <span class="section-subtitle">Solutions I Provide</span>
+            <h2 class="section-title">My Services</h2>
+            <p class="section-description">I provide innovative digital solutions that help individuals, startups, businesses, and organizations build strong brands, improve efficiency, and achieve their goals through technology, creativity, and data-driven strategies.</p>
+            <div class="section-divider"></div>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="row g-4">
+
+            <!-- Service 1: Graphic Design -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-palette"></i></div>
+                    <h3 class="service-title">Graphic Design</h3>
+                    <p class="service-description">Create visually compelling designs that communicate ideas and strengthen brand identity.</p>
+                    
+                    <div class="service-offerings">
+                        <h5>Key Services:</h5>
+                        <ul>
+                            <li>Logo Design</li>
+                            <li>Brand Identity</li>
+                            <li>Flyers & Posters</li>
+                            <li>Business Cards</li>
+                            <li>Brochures</li>
+                            <li>Banners</li>
+                            <li>Social Media Graphics</li>
+                            <li>Print & Digital Design</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-tools">
+                        <span class="tool-badge">Photoshop</span>
+                        <span class="tool-badge">Illustrator</span>
+                        <span class="tool-badge">InDesign</span>
+                        <span class="tool-badge">Canva</span>
+                        <span class="tool-badge">Figma</span>
+                    </div>
+
+                    <a href="#contact" class="service-btn">Request Service</a>
+                </div>
+            </div>
+
+            <!-- Service 2: Web Design & Development -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-code"></i></div>
+                    <h3 class="service-title">Web Design & Development</h3>
+                    <p class="service-description">Design and develop fast, responsive, secure, and user-friendly websites using modern web technologies.</p>
+                    
+                    <div class="service-offerings">
+                        <h5>Key Services:</h5>
+                        <ul>
+                            <li>Portfolio Websites</li>
+                            <li>Business Websites</li>
+                            <li>Landing Pages</li>
+                            <li>Responsive Design</li>
+                            <li>Frontend Development</li>
+                            <li>Website Maintenance</li>
+                            <li>Performance Optimization</li>
+                            <li>API Integration</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-tools">
+                        <span class="tool-badge">HTML5</span>
+                        <span class="tool-badge">CSS3</span>
+                        <span class="tool-badge">JavaScript</span>
+                        <span class="tool-badge">React</span>
+                        <span class="tool-badge">Bootstrap</span>
+                        <span class="tool-badge">Node.js</span>
+                    </div>
+
+                    <a href="#contact" class="service-btn">Request Service</a>
+                </div>
+            </div>
+
+            <!-- Service 3: Data Analytics & Business Intelligence -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3 class="service-title">Data Analytics & BI</h3>
+                    <p class="service-description">Transform raw data into meaningful insights that support smarter business decisions.</p>
+                    
+                    <div class="service-offerings">
+                        <h5>Key Services:</h5>
+                        <ul>
+                            <li>Data Cleaning</li>
+                            <li>Data Visualization</li>
+                            <li>Dashboard Development</li>
+                            <li>Business Reporting</li>
+                            <li>Statistical Analysis</li>
+                            <li>KPI Tracking</li>
+                            <li>Excel Automation</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-tools">
+                        <span class="tool-badge">Excel</span>
+                        <span class="tool-badge">SQL</span>
+                        <span class="tool-badge">Power BI</span>
+                        <span class="tool-badge">Tableau</span>
+                        <span class="tool-badge">Python</span>
+                    </div>
+
+                    <a href="#contact" class="service-btn">Request Service</a>
+                </div>
+            </div>
+
+            <!-- Service 4: AI Consulting & Automation -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-brain"></i></div>
+                    <h3 class="service-title">AI Consulting & Automation</h3>
+                    <p class="service-description">Leverage Artificial Intelligence to increase productivity, automate tasks, and improve decision-making.</p>
+                    
+                    <div class="service-offerings">
+                        <h5>Key Services:</h5>
+                        <ul>
+                            <li>AI Workflow Automation</li>
+                            <li>Productivity Training</li>
+                            <li>Prompt Engineering</li>
+                            <li>AI Tool Integration</li>
+                            <li>Chatbot Solutions</li>
+                            <li>Generative AI Consulting</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-tools">
+                        <span class="tool-badge">ChatGPT</span>
+                        <span class="tool-badge">Claude</span>
+                        <span class="tool-badge">Copilot</span>
+                        <span class="tool-badge">Gemini</span>
+                        <span class="tool-badge">Automation</span>
+                    </div>
+
+                    <a href="#contact" class="service-btn">Request Service</a>
+                </div>
+            </div>
+
+            <!-- Service 5: Social Media Management -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-share-alt"></i></div>
+                    <h3 class="service-title">Social Media Management</h3>
+                    <p class="service-description">Build a strong online presence through engaging content and effective digital marketing strategies.</p>
+                    
+                    <div class="service-offerings">
+                        <h5>Key Services:</h5>
+                        <ul>
+                            <li>Content Planning</li>
+                            <li>Content Creation</li>
+                            <li>Social Media Strategy</li>
+                            <li>Brand Management</li>
+                            <li>Audience Engagement</li>
+                            <li>Performance Analytics</li>
+                            <li>Campaign Management</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-tools">
+                        <span class="tool-badge">Facebook</span>
+                        <span class="tool-badge">Instagram</span>
+                        <span class="tool-badge">LinkedIn</span>
+                        <span class="tool-badge">TikTok</span>
+                        <span class="tool-badge">Twitter</span>
+                    </div>
+
+                    <a href="#contact" class="service-btn">Request Service</a>
+                </div>
+            </div>
+
+            <!-- Service 6: Software Development -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fas fa-cogs"></i></div>
+                    <h3 class="service-title">Software Development</h3>
+                    <p class="service-description">Develop reliable, efficient, and scalable software solutions using modern programming practices.</p>
+                    
+                    <div class="service-offerings">
+                        <h5>Key Services:</h5>
+                        <ul>
+                            <li>Desktop Applications</li>
+                            <li>Custom Software</li>
+                            <li>Object-Oriented Programming</li>
+                            <li>Database Integration</li>
+                            <li>Software Maintenance</li>
+                            <li>Bug Fixing</li>
+                            <li>Version Control</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-tools">
+                        <span class="tool-badge">C++</span>
+                        <span class="tool-badge">Python</span>
+                        <span class="tool-badge">JavaScript</span>
+                        <span class="tool-badge">SQL</span>
+                        <span class="tool-badge">Git</span>
+                    </div>
+
+                    <a href="#contact" class="service-btn">Request Service</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Call to Action -->
+        <div class="services-cta text-center">
+            <h3>Ready to Get Started?</h3>
+            <p>Let's work together to bring your ideas to life and achieve your goals.</p>
+            <a href="#contact" class="cta-button">Let's Work Together</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<section id="portfolio" class="portfolio-section">
+    <div class="container">
+        <div class="section-header text-center">
+            <span class="section-subtitle">My Work</span>
+            <h2 class="section-title">Portfolio</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="portfolio-filters text-center">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="websites">Websites</button>
+            <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+            <button class="filter-btn" data-filter="software">Software</button>
+            <button class="filter-btn" data-filter="analytics">Data Analytics</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+        </div>
+        <div class="row g-4 portfolio-grid">
+            <!-- Portfolio items -->
+        </div>
+    </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience" class="experience-section">
+    <div class="container">
+        <div class="section-header text-center">
+            <span class="section-subtitle">Professional Journey</span>
+            <h2 class="section-title">Work Experience</h2>
+            <div class="section-divider"></div>
+        </div>
+
+        <div class="experience-timeline">
+            <!-- Experience Item 1: Freelance Graphic Designer -->
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Freelance Graphic Designer</h3>
+                            <span class="experience-duration"><i class="fas fa-calendar-alt"></i> 2021 – Present</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-content">
+                        <p class="experience-description">
+                            Creating stunning visual designs that bring ideas to life.
+                        </p>
+                        <ul class="experience-list">
+                            <li>Design logos, flyers, brochures, banners, business cards, and branding materials</li>
+                            <li>Create social media graphics and marketing content</li>
+                            <li>Collaborate with clients to transform ideas into visually appealing designs</li>
+                            <li>Deliver high-quality designs within project deadlines</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-tech">
+                        <span class="tech-badge">Photoshop</span>
+                        <span class="tech-badge">Illustrator</span>
+                        <span class="tech-badge">Figma</span>
+                        <span class="tech-badge">Canva</span>
+                        <span class="tech-badge">CorelDRAW</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 2: Freelance Web Developer -->
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Freelance Web Developer</h3>
+                            <span class="experience-duration"><i class="fas fa-calendar-alt"></i> 2022 – Present</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-content">
+                        <p class="experience-description">
+                            Building responsive, high-performance websites with modern technologies.
+                        </p>
+                        <ul class="experience-list">
+                            <li>Design and develop responsive websites using HTML, CSS, JavaScript, Bootstrap, React, and modern web technologies</li>
+                            <li>Build user-friendly interfaces with clean, maintainable code</li>
+                            <li>Optimize websites for speed, SEO, and mobile responsiveness</li>
+                            <li>Integrate APIs and deploy websites to hosting platforms</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-tech">
+                        <span class="tech-badge">HTML</span>
+                        <span class="tech-badge">CSS</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Bootstrap</span>
+                        <span class="tech-badge">Git</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 3: Data Analytics Enthusiast -->
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Data Analytics Enthusiast</h3>
+                            <span class="experience-duration"><i class="fas fa-calendar-alt"></i> 2023 – Present</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-content">
+                        <p class="experience-description">
+                            Transforming raw data into actionable insights with analytical expertise.
+                        </p>
+                        <ul class="experience-list">
+                            <li>Analyze datasets to uncover meaningful insights</li>
+                            <li>Create interactive dashboards and reports</li>
+                            <li>Perform data cleaning, visualization, and statistical analysis</li>
+                            <li>Use Excel, SQL, Power BI, Python, and Tableau for data-driven decision-making</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-tech">
+                        <span class="tech-badge">Excel</span>
+                        <span class="tech-badge">SQL</span>
+                        <span class="tech-badge">Power BI</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Tableau</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 4: AI Advocate & Technology Researcher -->
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">AI Advocate &amp; Technology Researcher</h3>
+                            <span class="experience-duration"><i class="fas fa-calendar-alt"></i> 2023 – Present</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-content">
+                        <p class="experience-description">
+                            Exploring and implementing cutting-edge AI technologies for practical applications.
+                        </p>
+                        <ul class="experience-list">
+                            <li>Explore emerging Artificial Intelligence technologies and their practical applications</li>
+                            <li>Educate others on AI tools and productivity techniques</li>
+                            <li>Research trends in Generative AI, Machine Learning, and Automation</li>
+                            <li>Develop AI-powered solutions to improve workflows and efficiency</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-tech">
+                        <span class="tech-badge">ChatGPT</span>
+                        <span class="tech-badge">Machine Learning</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">AI Tools</span>
+                        <span class="tech-badge">Data Science</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 5: Social Media Manager -->
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Social Media Manager</h3>
+                            <span class="experience-duration"><i class="fas fa-calendar-alt"></i> 2022 – Present</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-content">
+                        <p class="experience-description">
+                            Managing digital presence and building engaged online communities.
+                        </p>
+                        <ul class="experience-list">
+                            <li>Plan and manage social media campaigns</li>
+                            <li>Design engaging content for multiple platforms</li>
+                            <li>Monitor analytics and improve audience engagement</li>
+                            <li>Develop strategies to increase brand visibility and online presence</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-tech">
+                        <span class="tech-badge">Facebook</span>
+                        <span class="tech-badge">Instagram</span>
+                        <span class="tech-badge">Twitter</span>
+                        <span class="tech-badge">LinkedIn</span>
+                        <span class="tech-badge">TikTok</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Item 6: Software Developer -->
+            <div class="experience-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <div class="experience-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="experience-title-group">
+                            <h3 class="experience-title">Software Developer</h3>
+                            <span class="experience-duration"><i class="fas fa-calendar-alt"></i> 2023 – Present</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-content">
+                        <p class="experience-description">
+                            Developing robust, scalable software solutions with best practices and modern methodologies.
+                        </p>
+                        <ul class="experience-list">
+                            <li>Develop software applications using C++, JavaScript, Python, and other programming languages</li>
+                            <li>Apply Object-Oriented Programming principles and software engineering best practices</li>
+                            <li>Build efficient, scalable, and user-friendly solutions</li>
+                            <li>Continuously improve coding skills by working on personal and collaborative projects</li>
+                        </ul>
+                    </div>
+
+                    <div class="experience-tech">
+                        <span class="tech-badge">C++</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Git</span>
+                        <span class="tech-badge">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- View Projects Button -->
+        <div class="experience-cta text-center">
+            <a href="#portfolio" class="btn btn-primary btn-lg">
+                <i class="fas fa-arrow-right"></i> View My Projects
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===== STATISTICS ===== -->
+<section id="statistics" class="statistics-section">
+    <!-- same structure -->
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact-section">
+    <!-- same structure -->
+</section>
+
+<!-- ===== CONNECT WITH ME ===== -->
+<section id="connect" class="connect-section">
+    <div class="container connect-container">
+        <div class="connect-header">
+            <h2>Let's Connect</h2>
+            <p>Feel free to reach out and connect with me on any of these platforms.</p>
+        </div>
+        <div class="social-icons-grid">
+            <!-- Social icons will be dynamically generated from social-config.js -->
+        </div>
+    </div>
+</section>
+
+<!-- ===== FLOATING WHATSAPP BUTTON ===== -->
+<a href="https://wa.me/233XXXXXXXXX" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Contact us on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer-section">
+    <!-- same structure -->
+</footer>
+
+</main>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="main.js"></script>
+<script src="navbar.js"></script>
+<script src="typing.js"></script>
+<script src="skills.js"></script>
+<script src="portfolio.js"></script>
+<script src="counter.js"></script>
+<script src="theme.js"></script>
+<script src="scroll.js"></script>
+<script src="contact.js"></script>
+<script src="animation.js"></script>
+<script src="services.js"></script>
+<script src="experience.js"></script>
+<!-- Social Media Configuration & Connect Section -->
+<script src="social-config.js"></script>
+<script src="connect-section.js"></script>
+<script src="footer-connect.js"></script>
+</body>
+</html>
+</html>

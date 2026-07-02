@@ -9,7 +9,7 @@
 const socialLinks = {
   // Facebook Profile
   facebook: {
-    url: "https://facebook.com/your-username",
+    url: "https://www.facebook.com/momo.rich.796",
     icon: "fab fa-facebook-f",
     label: "Facebook",
     color: "#1877F2",
@@ -18,7 +18,7 @@ const socialLinks = {
   
   // LinkedIn Profile
   linkedin: {
-    url: "https://linkedin.com/in/your-username",
+    url: "https://www.linkedin.com/in/richmond-odonkor-647690303/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJByBgOKlR4O2vcBdb1DPqw%3D%3D",
     icon: "fab fa-linkedin-in",
     label: "LinkedIn",
     color: "#0A66C2",
@@ -27,7 +27,7 @@ const socialLinks = {
   
   // Instagram Profile
   instagram: {
-    url: "https://instagram.com/your-username",
+    url: "https://www.instagram.com/richmond.odonkor/",
     icon: "fab fa-instagram",
     label: "Instagram",
     color: "#E4405F",
@@ -36,7 +36,7 @@ const socialLinks = {
   
   // TikTok Profile
   tiktok: {
-    url: "https://tiktok.com/@your-username",
+    url: "https://www.tiktok.com/@rich.design86",
     icon: "fab fa-tiktok",
     label: "TikTok",
     color: "#25F4EE",
@@ -45,7 +45,7 @@ const socialLinks = {
   
   // Twitter/X Profile
   twitter: {
-    url: "https://x.com/your-username",
+    url: "https://x.com/Od57141Richmond",
     icon: "fab fa-x-twitter",
     label: "X",
     color: "#000000",
@@ -54,7 +54,7 @@ const socialLinks = {
   
   // GitHub Profile
   github: {
-    url: "https://github.com/your-username",
+    url: "https://github.com/RIch23-momo",
     icon: "fab fa-github",
     label: "GitHub",
     color: "#333333",
@@ -63,7 +63,7 @@ const socialLinks = {
   
   // WhatsApp Number (format: country code + number, e.g., 233XXXXXXXXX)
   whatsapp: {
-    url: "https://wa.me/233XXXXXXXXX",
+    url: "https://wa.me/+233535900190",
     icon: "fab fa-whatsapp",
     label: "WhatsApp",
     color: "#25D366",
